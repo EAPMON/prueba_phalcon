@@ -5,6 +5,7 @@ use Dotenv\Dotenv;
 use Phalcon\Di\FactoryDefault;
 use Phalcon\Mvc\Application;
 
+
 try {
     $rootPath = realpath('..');
     require_once $rootPath . '/vendor/autoload.php';
